@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Mouse Events</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
         #canvas {
             border: 1px black solid;
         }
@@ -13,9 +17,11 @@
 <body>
 
 
-<P>Click the mouse on the canvas</P>
-<input id="color" type="color">
-<input id="range" type="range" min="1" max="20">
+<h1>Click the mouse on the canvas</h1>
+<input id="color" type="color" name="color">
+<label for="color">Marker Color</label> <br>
+<input id="range" type="range" name="range" min="1" max="20" step="1">
+<label for="range">Marker Size</label>
 <canvas id="canvas" height="500" width="500"></canvas>
 
 <script>
