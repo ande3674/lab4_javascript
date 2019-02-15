@@ -21,8 +21,8 @@
       <file leaf-file-name="mouse_drag.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drawing_program/mouse_drag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="527">
+              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-36" />
-    <option name="y" value="45" />
+    <option name="x" value="361" />
+    <option name="y" value="93" />
     <option name="width" value="989" />
     <option name="height" value="1000" />
   </component>
@@ -140,6 +140,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ce6915gp.MPLS.000\WebstormProjects\Lab4\drawing_program" />
       <recent name="C:\Users\ce6915gp.MPLS.000\WebstormProjects\Lab4" />
       <recent name="C:\Users\ce6915gp.MPLS.000\WebstormProjects\Lab4\draw_word" />
     </key>
@@ -209,15 +210,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550186058001</updated>
-      <workItem from="1550186061307" duration="7577000" />
+      <workItem from="1550186061307" duration="8129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7577000" />
+    <option name="totallyTimeSpent" value="8129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-36" y="45" width="989" height="1000" extended-state="0" />
+    <frame x="361" y="93" width="989" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31038028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -293,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drawing_program/mouse_drag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="527">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding />
         </state>
       </provider>
