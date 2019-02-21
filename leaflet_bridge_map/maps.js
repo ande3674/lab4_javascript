@@ -21,6 +21,17 @@ var tacomaNarrowsBridgeSpan = "853.44";
 // Create the map
 var map = L.map('map').setView(geographicCenter, 4);
 
+// Create icon
+var bridgeIcon = L.icon({
+    iconUrl: 'bridge.png',
+    shadowUrl: 'bridge_shadow.png',
+
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [30, 39], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 50],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
 // Add the tile layer - roads, streets etc. Without this, nothing to see
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -31,26 +42,30 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 
 // Add some markers
-var verrazanoMarker = L.marker(verrazanoNarrowsBridge)
+// var verrazanoMarker = L.marker(verrazanoNarrowsBridge)
+//     .bindPopup(verrazanoNarrowsBridgeName + ', ' + verrazanoNarrowsBridgeSpan + ' meters', {
+//     }).addTo(map)
+// verrazanoMarker.openPopup();
+var verrazanoMarker = L.marker(verrazanoNarrowsBridge, {icon: bridgeIcon})
     .bindPopup(verrazanoNarrowsBridgeName + ', ' + verrazanoNarrowsBridgeSpan + ' meters', {
     }).addTo(map)
 verrazanoMarker.openPopup();
 
-var goldenGateMarker = L.marker(goldenGateBridge)
+var goldenGateMarker = L.marker(goldenGateBridge, {icon: bridgeIcon})
     .bindPopup(goldenGateBridgeName + ', ' + goldenGateBridgeSpan + ' meters', {}).addTo(map)
 goldenGateMarker.openPopup();
 
-var mackinacMarker = L.marker(mackinacBridge)
+var mackinacMarker = L.marker(mackinacBridge, {icon: bridgeIcon})
     .bindPopup(mackinacBridgeName + ', ' + mackinacBridgeSpan + ' meters', {
     }).addTo(map)
 mackinacMarker.openPopup();
 
-var georgeWashingtonMarker = L.marker(georgeWashingtonBridge)
+var georgeWashingtonMarker = L.marker(georgeWashingtonBridge, {icon: bridgeIcon})
     .bindPopup(georgeWashingtonBridgeName + ', ' + georgeWashingtonBridgeSpan + ' meters', {
     }).addTo(map)
 georgeWashingtonMarker.openPopup();
 
-var tacomaMarker = L.marker(tacomaNarrowsBridge)
+var tacomaMarker = L.marker(tacomaNarrowsBridge, {icon: bridgeIcon})
     .bindPopup(tacomaNarrowsBridgeName + ', ' + tacomaNarrowsBridgeSpan + ' meters', {
     }).addTo(map)
 tacomaMarker.openPopup();
